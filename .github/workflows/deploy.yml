@@ -39,6 +39,7 @@ jobs:
         run: |
           echo "VITE_AIF_URL=${{ secrets.VITE_AIF_URL }}" >> .env
           echo "VITE_AIF_TOKEN=${{ secrets.VITE_AIF_TOKEN }}" >> .env
+          echo "VITE_AIFORCE_USECASE=${{ secrets.VITE_AIFORCE_USECASE }}" >> .env
 
       - name: Build
         run: npm run build
