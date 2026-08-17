@@ -1,7 +1,7 @@
 import type { Message } from "./types";
 
-const API_URL = import.meta.env.VITE_AIFORCE_URL?.trim();
-const API_TOKEN = import.meta.env.VITE_AIFORCE_TOKEN?.trim();
+const API_URL = import.meta.env.VITE_AIF_URL;
+const API_TOKEN = import.meta.env.VITE_AIF_TOKEN;
 const API_USECASE = import.meta.env.VITE_AIFORCE_USECASE?.trim();
 const REQUEST_TIMEOUT_MS = 90_000;
 
